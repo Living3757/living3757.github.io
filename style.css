@@ -1,0 +1,63 @@
+body{
+    background-color: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+#container {
+    background-color: white;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header {
+    background-color: #66ccff;
+    color: white;
+    text-align: center;
+    
+}
+
+#content{
+    /*Padding is the space between divs*/
+    padding: 10px;
+}
+
+#nav {
+    width: 10px;
+    float: left;
+}
+
+#nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+#nav.selected{
+    font-weight: bold;
+}
+
+
+
+#main {
+    width: 750px;
+    text-align: left    ;
+    float: center;
+    margin-left: 200px;
+    margin-bottom: 100px;
+}
+
+#footer {
+    /*We must be clear of any floating elements before we display ourselves*/
+    clear: both;
+    padding: 10px;
+    background-color: 999999;
+}
