@@ -7,9 +7,8 @@
         {
             "type": "firefox",
             "request": "launch",
-            "reAttach": true,
-            "name": "Launch index.html",
-            "file": "${workspaceFolder}/index.html"
+            "name": "Open index.html",
+            "file": "c:\\Users\\Bryan\\Documents\\GitHub\\living\\Blog\\index.html"
         }
     ]
 }
